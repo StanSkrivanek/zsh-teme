@@ -1,2 +1,2 @@
-# zsh-teme
+# zsh-theme
 custom theme for terminal
