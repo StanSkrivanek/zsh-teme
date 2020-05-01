@@ -1,3 +1,5 @@
 # zsh-theme
 
-custom theme for terminal ZSH shell
+Custom theme for terminal ZSH shell
+
+![image](img/image.png)
