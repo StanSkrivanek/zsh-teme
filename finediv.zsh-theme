@@ -104,5 +104,11 @@ function steeef_precmd {
 add-zsh-hook precmd steeef_precmd
 
 PROMPT=$'
-%{$purple%}%n${PR_RST} at %{$purple%}%m${PR_RST} in %{$yellow%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info) [%*]
+%{$purple%}%n${PR_RST} at %{$purple%}%m${PR_RST} in %{$yellow%}%c${PR_RST} $vcs_info_msg_0_$(virtualenv_info) [%*]
 %{$fg_bold[yellow]%}∴ %{$reset_color%}'
+
+# Show full path
+# %{$yellow%}%~$ 
+# --------------------
+# Show current dir 
+# %{$yellow%}%c$ 
